@@ -4,7 +4,7 @@ def reverse_words(sentence: str) -> str:
     
 def main():
     print("=== Программа: Обратный порядок слов ===")
-    print("Введите 'выход' (или 'exit') для завершения работы.\n")
+    print("Введите 'выход' или 'exit' для завершения работы.\n")
 
     while True:
         user_input = input("Введите предложение: ")
@@ -16,5 +16,4 @@ def main():
             continue
         result = reverse_words(user_input)
         print(f"Результат: {result}\n")
-
-
+main()
