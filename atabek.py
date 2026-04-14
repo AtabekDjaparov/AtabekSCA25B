@@ -1,4 +1,4 @@
-def reverse_words(sentence: str) -> str:
+def reverse_words(sentence):
     words = sentence.strip().split()
     return ' '.join(reversed(words))
     
